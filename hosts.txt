@@ -1,0 +1,1 @@
+kali2 ansible_host=192.168.64.4 ansible_user=eek24 ansible_ssh_private_key_file=/home/klshv/.ssh/id_rsa

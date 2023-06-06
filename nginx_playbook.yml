@@ -1,0 +1,8 @@
+---
+- name: Install and configure nginx
+  hosts: all
+  become: true
+  become_method: sudo
+  become_user: eek24
+  roles:
+    - nginx

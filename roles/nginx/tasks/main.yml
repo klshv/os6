@@ -1,0 +1,7 @@
+---
+- name: nginx install
+  apt:
+    name=nginx
+    state=latest
+  notify:
+    - nginx status
